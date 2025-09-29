@@ -62,3 +62,12 @@ int main() {
 
     return 0;
 }
+#include <iostream>
+using namespace std;
+
+int main() {
+    for (int i = 0; i < 5; i++) {
+        cout << "hamza" << endl;
+    }
+    return 0;
+}
