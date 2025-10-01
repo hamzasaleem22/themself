@@ -89,4 +89,24 @@ int main() {
     }
 
     return 0;
+}#include <iostream>
+using namespace std;
+
+int main() {
+    double distance, time, speed;
+
+    cout << "Enter distance traveled by ship (in kilometers): ";
+    cin >> distance;
+    cout << "Enter time taken (in hours): ";
+    cin >> time;
+
+    if (time > 0) {
+        speed = distance / time;
+        cout << "The speed of the ship is " << speed << " km/h." << endl;
+    } else {
+        cout << "Time must be greater than zero." << endl;
+    }
+
+    return 0;
+    cout<<"i teach that how to learn pull request"
 }
